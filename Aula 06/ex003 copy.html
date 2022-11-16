@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Programa...</title>
+    <Style>
+        body {
+            background-color: rgb(115, 115, 190);
+        color: rgb(255, 255, 255); /*Comentário em CSS*/
+        font: normal 25pt Arial;
+        }
+        h1 {
+            color: yellow;
+        }
+    </Style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Comentário em HTML-->
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número:')) //Prompt Recebe um valor string, então usei Number para numero
+        var n2 = Number(window.prompt('Digite outro número')) //Prompt Recebe um valor string, então usei Number para numero
+        var s = n1 + n2 
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //Concatenação
+        //Number + Number para Adição
+        //String + String para Cocatenação
+        // Para converter de string para numero inteiro você pode usar Number.parseInt(n) e para real Number.parseFloat(n) 
+        //já Number funciona pra ambos
+        // String(n) ou n.toString() converte de numero para string
+        // Aspas simples ou duplas para strings simples ' ' sem interpolação
+        // Aspas simples ou duplas com + para concatenar
+        // `${n}` Usa template string, faz interpolação
+        // s.length ele diz quantos caracteres a string tem
+        // s.toUpperCase() Tudo para 'Maiusculas'
+        // s;toLowerCase() tudo para 'Minusculas'
+        //n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'})
+        n.toString()
+    </script>
+</body>
+</html>
